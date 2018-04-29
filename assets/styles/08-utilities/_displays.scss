@@ -1,0 +1,24 @@
+/**
+ * Displays
+ *
+ * Construct each display property found in $displays with
+ * a placeholder and a utility class
+ *
+ */
+$displays: 'block' 'inline-block' 'inline' 'none' 'flex';
+@each $breakpoint in $slicer-breakpoint-names {
+    @include from( $breakpoint ) {
+    @each $display in $displays {
+
+      // Placeholder
+      %display-#{ unquote( $breakpoint ) }-#{ unquote( $display ) } {
+        display: #{ unquote( $display ) };
+      }
+
+      // .display-{ $display }
+      .display-#{ unquote( $breakpoint ) }-#{ unquote( $display ) } {
+        @extend %display-#{ unquote( $breakpoint ) }-#{ unquote( $display ) };
+      }
+    }
+  }
+}

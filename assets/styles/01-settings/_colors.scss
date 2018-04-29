@@ -1,0 +1,39 @@
+/**
+ * Color variation
+ *
+ * Each colors used in the project.
+ *
+ * @uses get_color( $key, $value ) to retrieve color value
+ * @type nested map
+ * @see https://gist.github.com/janmarsicek/a48a43b96200653e8aec
+ * @see http://www.colorhexa.com/ to pickup color name
+ */
+$color-variations: (
+	black: #000000,
+	white: #ffffff,
+
+	grey: (
+    base:  #242424,
+    light: lighten(#242424, 10%),
+    dark: darken(#242424, 10%)
+  ),
+
+  purple: (
+      base:   rgb(42,40,80),
+      light:  rgb(51,46,140),
+      dark:   rgb(40,38,65)
+  ),
+
+	/**
+	 * Brand colors
+	 *
+	 * @see https://brandcolors.net/
+	 */
+	social: (
+		facebook: #3b5998,
+		twitter: #1da1f2,
+		google-plus: #dd4b39,
+		linkedin: #0077b5,
+		mail: #000000,
+	)
+);

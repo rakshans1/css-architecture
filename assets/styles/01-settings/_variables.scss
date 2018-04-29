@@ -1,0 +1,116 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/**
+ * Base
+ */
+$base-font-size: 14;
+$base-font-size-px: $base-font-size * 1px;
+$base-line-height: 21;
+
+
+/**
+ * Grid columns number
+ *
+ * Number of columns in the grid, it override `$grid-columns` from
+ * bootstrap It means, if you wish, that you can instantiate a grid of 8,
+ * for example.
+ *
+ * @see https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss#L198
+ */
+$grid-columns: 12;
+
+
+/**
+ * Gutter width
+ *
+ * Padding between columns. Gets divided in half for the left and right, it
+ * overide `$grid-gutter-width` from bootstrap
+ *
+ * @see http://stackoverflow.com/a/28193872/5091221
+ * @see https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss#L199
+ */
+$grid-gutter-width-unitless: 30;
+$grid-gutter-width: ( $grid-gutter-width-unitless * 1px );
+
+/**
+ * Outer gutter width
+ *
+ * (Most of the time it's the size of a gutter divide by 2.)
+ * Useful for the container.
+ */
+$grid-outer-gutter-width-unitless: 100;
+$grid-outer-gutter-width: $grid-outer-gutter-width-unitless * 1px;
+
+
+/**
+ * Prototype width
+ *
+ * From Photoshop, Sketch, Illustrator, Paint maybe? 😝
+ */
+$prototype-width-unitless: 1440;
+$prototype-width: $prototype-width-unitless * 1px;
+
+/**
+ * Container width without grid outer gutter width
+ *
+ * Width keep from prototype
+ */
+$container-width-without-outer-gutter-unitless: 1200;
+$container-width: $container-width-without-outer-gutter-unitless * 1px;
+
+/**
+ * Container width
+ *
+ * Width keep from prototype (grid + outer gutter * 2 )
+ */
+ $container-width-unitless: $container-width-without-outer-gutter-unitless + ( $grid-outer-gutter-width-unitless * 2 );
+ $container-width: $container-width-unitless * 1px;
+
+/**
+ * Transitions
+ *
+ * @uses map-get( $transitions, $key ) to retrieve directory value from map
+ * @type map
+ * @see http://easings.net/
+ */
+$transitions: (
+	ease: .3s ease,
+);
+
+/**
+ * Directories
+ *
+ * Each directories used in this theme.
+ *
+ * @uses 	map-get( $directories, $key ) to retrieve directory value
+ * @type 	map
+ */
+$directories:
+(
+  fonts: "../fonts/",
+  img: "../images/",
+);
+
+/**
+ * Breakpoint slicer
+ *
+ * @see https://github.com/lolmaus/breakpoint-slicer
+ */
+$slicer-breakpoints: 0 576px 768px 992px 1200px;
+$slicer-breakpoint-names: 'xs' 'sm' 'md' 'lg' 'xl';
+$slicer-anti-overlap-corrections: -1px;
+
+/**
+ * State classes
+ *
+ * Each state class used in this theme.
+ *
+ * @uses map-get( $state-classes, $key ) to retrieve class value
+ * @type map
+ */
+$state-classes: (
+	menu-open: menu--is-open,
+	submenu-open: submenu--is-open,
+);

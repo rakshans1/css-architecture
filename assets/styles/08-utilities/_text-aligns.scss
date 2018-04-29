@@ -1,0 +1,37 @@
+/**
+ * Text aligns
+ *
+ * Construct each text alignment found in $text-aligns with
+ * a placeholder and a utility class
+ *
+ */
+$text-aligns: 'left' 'right' 'center' 'justify';
+@each $text-align in $text-aligns {
+
+  // Placeholder
+  %text-#{ unquote( $text-align ) } {
+    text-align: #{ unquote( $text-align ) };
+  }
+
+  // .{ $text-align }
+  .text-#{ unquote( $text-align ) } {
+    @extend %text-#{ unquote( $text-align ) };
+  }
+}
+
+@each $breakpoint in $slicer-breakpoint-names {
+    @include from( $breakpoint ) {
+    @each $text-align in $text-aligns {
+
+      // Placeholder
+      %text-#{ unquote( $breakpoint ) }-#{ unquote( $text-align ) } {
+        text-align: #{ unquote( $text-align ) };
+      }
+
+      // .text-align-{ $breakpoint }-{ $text-align }
+      .text-#{ unquote( $breakpoint ) }-#{ unquote( $text-align ) } {
+        @extend %text-#{ unquote( $breakpoint ) }-#{ unquote( $text-align ) };
+      }
+    }
+  }
+}

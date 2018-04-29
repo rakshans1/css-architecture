@@ -1,0 +1,34 @@
+//This is a example component
+
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  font: inherit;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  transition: map-get( $transitions, ease );
+  border: 1px solid transparent;
+}
+
+/* Style variants
+*/
+.button--primary {
+  background-color: get_color(grey);
+  color: get_color(white);
+  &:hover {
+    background-color: get_color(white);
+    border: 1px solid get_color(grey);
+    color: get_color(grey);
+  }
+}
+
+/* Size variants
+*/
+.btn--small {
+  padding: 0.25rem 0.5rem;
+}
+
+.btn--large {
+  padding: 0.5rem 2rem;
+}

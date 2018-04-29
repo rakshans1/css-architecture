@@ -1,0 +1,17 @@
+/**
+ * Basic typography style for text
+ */
+body {
+  font: {
+    family: map-get( map-get( $font, families ), body );
+    size: 1rem;
+    weight: map-get( map-get( $font, weights ), regular );
+  }
+}
+
+html {
+  font: {
+    size: $base-font-size-px;
+  }
+  line-height: ( ( $base-line-height / $base-font-size ) * 1em );
+}

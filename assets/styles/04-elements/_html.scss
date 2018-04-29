@@ -1,0 +1,10 @@
+html {
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100%;
+  @include from(md) {
+    font-size: 16px;
+  }
+  overflow-x: hidden;
+}

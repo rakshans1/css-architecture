@@ -1,0 +1,66 @@
+/**
+ * Font
+ *
+ * A map containing all information about fonts
+ *
+ * @type map
+ */
+$font: (
+
+
+	/**
+	 * Font
+	 *
+	 * All fonts families found in the site are listed here
+	 *
+	 * @uses map-get( $font, $key ) to retrieve font value from map
+	 * @type map
+	 */
+	families: (
+		body: ( 'Source Code Pro', sans-serif ),
+		title: ( 'Sans', serif ),
+	),
+
+
+	/**
+	 * Font weights
+	 *
+	 * Each font weight used in the theme.
+	 *
+	 * @uses map-get( $font, weights ) to retrieve font weight value
+	 * @type map
+	 */
+	weights: (
+		extralight: 100,
+		light: 200,
+		book: 300,
+		regular: 400,
+		medium: 500,
+		semibold: 600,
+		bold: 700,
+		extrabold: 800,
+		extrablack: 900
+	),
+
+
+	/**
+	 * Font styles
+	 *
+	 * Each font style used in the theme.
+	 *
+	 * @uses map-get( $font, styles ) to retrieve font style value
+	 * @type list
+	 */
+	styles: 'italic',
+
+
+	/**
+	 * Font sizes
+	 *
+	 * Each font size used in the theme.
+	 *
+	 * @uses map-get( $font, sizes ) to retrieve font size value
+	 * @type list
+	 */
+	sizes: '15',
+);

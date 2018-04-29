@@ -1,0 +1,51 @@
+<svg width="731.69" height="437.51" xmlns="http://www.w3.org/2000/svg">
+ <title>itcss-layers2</title>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polygon id="svg_1" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="3px" points="252.60000610351562,436.510009765625 2.5999999046325684,3.5 502.6000061035156,3.5 252.60000610351562,436.510009765625 "/>
+  <line id="svg_2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3px" y2="62.5" x2="467.38" y1="62.5" x1="37.82"/>
+  <line id="svg_3" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3px" y2="125" x2="431.29" y1="125" x1="73.46"/>
+  <line id="svg_4" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3px" y2="187.51" x2="395.21" y1="187.51" x1="109.99"/>
+  <line id="svg_5" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3px" y2="250.01" x2="359.12" y1="250.01" x1="146.07"/>
+  <line id="svg_6" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3px" y2="299" x2="334" y1="299" x1="175"/>
+  <line id="svg_7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3px" y2="393" x2="277" y1="393" x1="228"/>
+  <line id="svg_8" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2px" y2="89.17" x2="310.6" y1="88.5" x1="310.6"/>
+  <line id="svg_9" fill="none" stroke="#000" stroke-miterlimit="10" y2="62.5" x2="473.38" y1="62.5" x1="467.38"/>
+  <line id="svg_10" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="12.01486587524414,12.01486587524414" y2="62.5" x2="719.68" y1="62.5" x1="485.39"/>
+  <line id="svg_11" fill="none" stroke="#000" stroke-miterlimit="10" y2="62.5" x2="731.69" y1="62.5" x1="725.69"/>
+  <line id="svg_12" fill="none" stroke="#000" stroke-miterlimit="10" y2="125" x2="437.29" y1="125" x1="431.29"/>
+  <line id="svg_13" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="12.346588134765625,12.346588134765625" y2="125" x2="715.09" y1="125" x1="449.64"/>
+  <line id="svg_14" fill="none" stroke="#000" stroke-miterlimit="10" y2="125" x2="727.26" y1="125" x1="721.26"/>
+  <line id="svg_15" fill="none" stroke="#000" stroke-miterlimit="10" y2="187.51" x2="401.21" y1="187.51" x1="395.21"/>
+  <line id="svg_16" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="11.853960990905762,11.853960990905762" y2="187.51" x2="715.34" y1="187.51" x1="413.06"/>
+  <line id="svg_17" fill="none" stroke="#000" stroke-miterlimit="10" y2="187.51" x2="727.26" y1="187.51" x1="721.26"/>
+  <line id="svg_18" fill="none" stroke="#000" stroke-miterlimit="10" y2="250.01" x2="365.12" y1="250.01" x1="359.12"/>
+  <line id="svg_19" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="12.28077220916748,12.28077220916748" y2="250.01" x2="715.12" y1="250.01" x1="377.4"/>
+  <line id="svg_20" fill="none" stroke="#000" stroke-miterlimit="10" y2="250.01" x2="727.26" y1="250.01" x1="721.26"/>
+  <line id="svg_21" fill="none" stroke="#000" stroke-miterlimit="10" y2="312.51" x2="329.04" y1="312.51" x1="323.04"/>
+  <line stroke="#000" id="svg_22" fill="none" stroke-miterlimit="10" stroke-dasharray="5,5" y2="298.367864" x2="731" y1="298.367864" x1="341"/>
+  <line id="svg_24" fill="none" stroke="#000" stroke-miterlimit="10" y2="435.01" x2="351.95" y1="435.01" x1="345.95"/>
+  <line id="svg_25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="5,5" y2="392" x2="729" y1="392" x1="283"/>
+  <line id="svg_27" fill="none" stroke="#000" stroke-miterlimit="10" y2="436.51" x2="258.6" y1="436.51" x1="252.6"/>
+  <line id="svg_28" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="11.976737976074219,11.976737976074219" y2="436.51" x2="719.7" y1="436.51" x1="270.57"/>
+  <line id="svg_29" fill="none" stroke="#000" stroke-miterlimit="10" y2="436.51" x2="731.69" y1="436.51" x1="725.69"/>
+  <line id="svg_30" fill="none" stroke="#000" stroke-miterlimit="10" y2="1.5" x2="508.6" y1="1.5" x1="502.6"/>
+  <line id="svg_31" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="12.509803771972656,12.509803771972656" y2="1.5" x2="715.01" y1="1.5" x1="521.11"/>
+  <line id="svg_32" fill="none" stroke="#000" stroke-miterlimit="10" y2="1.5" x2="727.26" y1="1.5" x1="721.26"/>
+  <text id="svg_33" x="549.890015" y="420.970001" font-size="24px" font-family="OpenSans-Extrabold, Open Sans" font-weight="700">UTILITIES</text>
+  <text style="cursor: move;" id="svg_34" x="546.26001" y="331.570007" font-size="24px" font-family="OpenSans-Extrabold, Open Sans" font-weight="700">LAYOUTS</text>
+  <text id="svg_35" x="550.440002" y="107.970001" font-size="24px" font-family="OpenSans-Extrabold, Open Sans" font-weight="700">TOOLS</text>
+  <text id="svg_36" x="549.390015" y="169.369995" font-size="24px" font-family="OpenSans-Extrabold, Open Sans" font-weight="700">BASE</text>
+  <text id="svg_37" x="545.960022" y="232.770004" font-size="24px" font-family="OpenSans-Extrabold, Open Sans" font-weight="700">ELEMENTS</text>
+  <text style="cursor: move;" id="svg_38" x="547.169983" y="285.170013" font-size="24px" font-family="OpenSans-Extrabold, Open Sans" font-weight="700">COMPONENTS</text>
+  <text style="cursor: move;" id="svg_39" x="554.280029" y="44.57" font-size="24px" font-family="OpenSans-Extrabold, Open Sans" font-weight="700">SETTINGS</text>
+  <line id="svg_40" fill="none" stroke="#000" stroke-miterlimit="10" stroke-dasharray="5,5" y2="350.837722" x2="731.162278" y1="350.837722" x1="306.162278"/>
+  <line stroke="#000" id="svg_41" fill="none" stroke-miterlimit="10" stroke-width="3px" y2="353" x2="301" y1="353" x1="208"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="OpenSans-Extrabold, Open Sans" font-size="24px" id="svg_43" y="379.254997" x="552.345001" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="#000" fill="null">PAGES</text>
+ </g>
+</svg>

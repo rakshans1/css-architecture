@@ -1,0 +1,38 @@
+
+/**
+ * Vertical aligns
+ *
+ * Construct each vertical alignment found in $vertical-aligns with
+ * a placeholder and a utility class
+ *
+ */
+$vertical-aligns: 'middle' 'top';
+@each $vertical-align in $vertical-aligns {
+
+  // Placeholder
+  %vertical-align-#{ unquote( $vertical-align ) } {
+    vertical-align: #{ unquote( $vertical-align ) };
+  }
+
+  // .vertical-align-{ $vertical-align }
+  .vertical-#{ unquote( $vertical-align ) } {
+    @extend %vertical-align-#{ unquote( $vertical-align ) };
+  }
+}
+
+@each $breakpoint in $slicer-breakpoint-names {
+    @include from( $breakpoint ) {
+    @each $vertical-align in $vertical-aligns {
+
+      // Placeholder
+      %vertical-align-#{ unquote( $breakpoint ) }-#{ unquote( $vertical-align ) } {
+        vertical-align: #{ unquote( $vertical-align ) };
+      }
+
+      // .vertical-align-{ $breakpoint }-{ $vertical-align }
+      .vertical-#{ unquote( $breakpoint ) }-#{ unquote( $vertical-align ) } {
+        @extend %vertical-align-#{ unquote( $breakpoint ) }-#{ unquote( $vertical-align ) };
+      }
+    }
+  }
+}

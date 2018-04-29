@@ -1,0 +1,20 @@
+/**
+ * Text transforms
+ *
+ * Construct each text transformation found in $text-transforms with
+ * a placeholder and a utility class
+ *
+ */
+$text-transforms: 'lowercase' 'uppercase' 'capitalize' 'none';
+@each $text-transform in $text-transforms {
+
+  // Placeholder
+  %text-transform-#{ unquote( $text-transform ) } {
+    text-transform: #{ unquote( $text-transform ) };
+  }
+
+  // .text-{ $text-transform }
+  .text-#{ $text-transform } {
+    @extend %text-transform-#{ unquote( $text-transform ) };
+  }
+}
